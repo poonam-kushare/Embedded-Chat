@@ -1,0 +1,94 @@
+<html>
+	<body>
+		<!-- Section to determine the logged in state of the user-->
+		<div>
+			<input type="radio" id="loggedin" name="userstate" value="loggedin">
+			<label for="loggedin">Logged In</label>
+			
+			<input type="radio" id="loggedout" name="userstate" value="loggedout">
+			<label for="loggedout">Logged Out</label>
+		</div>
+		
+		<!-- This button will invoke the chat functionality-->
+		<div>
+			<button type="submit" class="init-chat">Submit</button>
+		</div>
+		
+		<!-- We are hiding the standard chat widget with the css below-->
+		<style type='text/css'>
+			.embeddedServiceHelpButton .helpButton .uiButton.helpButtonDisabled { display: none; }
+			.embeddedServiceHelpButton .helpButton .uiButton.helpButtonEnabled { display: none; }
+		</style>
+		
+		<!-- Embedded chat deployment code (Auto Generated) -->
+		<script type='text/javascript' src='https://service.force.com/embeddedservice/5.0/esw.min.js'></script>
+		
+		<!-- Chat button event binding and initializing-->
+		<script type='text/javascript'>
+			
+			// Callback function for initializing the chat settings
+			const chatHandler = function() {
+				var s = document.createElement('script');
+				s.setAttribute('src', 'https://toyrusca--uat.my.salesforce.com/embeddedservice/5.0/esw.min.js');
+				s.onload = function() {
+					initESW('https://service.force.com');
+					
+					setTimeout(function(){ 
+						// This is standard event provided by Salesforce Embedded Chat feature 
+						embedded_svc.onHelpButtonClick(); 
+					},1000);
+					
+				};
+				document.body.appendChild(s);           
+			};
+			
+			// Bind the event with custom button with 'init-chat' class, 
+			const els = document.getElementsByClassName('init-chat');
+			Array.prototype.forEach.call(els, function(el) {
+				el.addEventListener('click', chatHandler);
+			}); 
+			
+			// Auto generated code for chat settings 
+			function initESW (gslbBaseURL) {
+				embedded_svc.settings.displayHelpButton = true; //Or false
+				embedded_svc.settings.language = ''; //For example, enter 'en' or 'en-US'
+				embedded_svc.settings.widgetFontSize = '12px';
+                embedded_svc.settings.defaultMinimizedText = 'LIVE CHAT';
+				
+				// TODO start : This section needs to be updated for passing the user status to pre chat (Currently passing the status based on radio inputs above
+				var userstate = document.getElementsByName("userstate");
+				var selectedState;
+				
+				for(var i = 0; i < userstate.length; i++) {
+					if(userstate[i].checked)
+						selectedState = userstate[i].value;
+				}  
+				
+				// Sets the auto-population of pre-chat form fields
+				embedded_svc.settings.prepopulatedPrechatFields = {Email: selectedState}; 
+				
+				// TODO end
+				
+				embedded_svc.settings.enabledFeatures = ['LiveAgent'];
+				embedded_svc.settings.entryFeature = 'LiveAgent';
+				
+				embedded_svc.init(
+					'https://toyrusca--uat.my.salesforce.com',
+					'https://uat-truca.cs196.force.com',
+					gslbBaseURL,
+					'00D030000008acd',
+					'For_Logged_in_User',
+					{
+						baseLiveAgentContentURL: 'https://c.la2-c1cs-ia4.salesforceliveagent.com/content',
+						deploymentId: '57203000000001S',
+						buttonId: '57303000000001N',
+						baseLiveAgentURL: 'https://d.la2-c1cs-ia4.salesforceliveagent.com/chat',
+						eswLiveAgentDevName: 'EmbeddedServiceLiveAgent_Parent04I03000000GmaJEAS_1742f3b36e6',
+						isOfflineSupportEnabled: false
+					}
+				);
+			}; 
+		
+		</script>
+	</body>
+</html>
