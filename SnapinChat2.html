@@ -31,7 +31,8 @@
 				var s = document.createElement('script');
 				s.setAttribute('src', 'https://toyrusca--uat.my.salesforce.com/embeddedservice/5.0/esw.min.js');
 				s.onload = function() {
-					initESW('https://service.force.com');
+					var language = 'FR';
+					initESW('https://service.force.com', language);
 					
 					setTimeout(function(){ 
 						// This is standard event provided by Salesforce Embedded Chat feature 
@@ -54,6 +55,7 @@
 				embedded_svc.settings.language = ''; //For example, enter 'en' or 'en-US'
 				//embedded_svc.settings.widgetFontSize = '12px';
                			embedded_svc.settings.defaultMinimizedText = 'LIVE CHAT';
+				embedded_svc.settings.language = '';
 				
 				// TODO start : This section needs to be updated for passing the user status to pre chat (Currently passing the status based on radio inputs above
 				var userstate = document.getElementsByName("userstate");
