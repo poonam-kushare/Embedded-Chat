@@ -1,0 +1,78 @@
+<html>
+	<body> 		
+		<!-- We are hiding the standard chat widget with the css below-->
+		<style type='text/css'>
+			.embeddedServiceHelpButton .helpButton .uiButton.helpButtonDisabled {}
+			.embeddedServiceHelpButton .helpButton .uiButton.helpButtonEnabled {}
+		</style>
+		
+		<!-- Embedded chat deployment code (Auto Generated) -->
+		<script type='text/javascript' src='https://service.force.com/embeddedservice/5.0/esw.min.js'></script>
+		
+		<!-- Chat button event binding and initializing-->
+		<script type='text/javascript'> 
+			
+			// Auto generated code for chat settings 
+			var initESW = function(gslbBaseURL) {
+                var language = 'FR';
+                var email = 'elenaachaney@dayrep.com';
+
+                embedded_svc.settings.displayHelpButton = true; //Or false
+                embedded_svc.settings.defaultMinimizedText = 'LIVE CHAT';
+                embedded_svc.settings.language = language;
+
+                // Sets the auto-population of pre-chat form fields
+                //embedded_svc.settings.prepopulatedPrechatFields = {Email: email}; 
+
+                embedded_svc.settings.directToButtonRouting = function(prechatFormData) {
+                if (language === "EN"){
+                    return "57303000000001X";
+                    }
+                    else if(language === "FR"){
+                    return "57303000000001c";
+                    }
+                }
+
+                embedded_svc.snippetSettingsFile.extraPrechatFormDetails = [
+                    {
+                    "label": "Language",
+                    "value": language,
+                    "transcriptFields": ["Language__c"],
+                    "displayToAgent":true
+                    }
+                ];
+
+                embedded_svc.settings.enabledFeatures = ['LiveAgent'];
+                embedded_svc.settings.entryFeature = 'LiveAgent';
+
+                embedded_svc.init(
+                    'https://toyrusca--uat.my.salesforce.com',
+                    'https://uat-truca.cs196.force.com',
+                    gslbBaseURL,
+                    '00D030000008acd',
+                    'For_Logged_in_User',
+                    {
+                        baseLiveAgentContentURL: 'https://c.la2-c1cs-ia4.salesforceliveagent.com/content',
+                        deploymentId: '57203000000001S',
+                        buttonId: '57303000000001N',
+                        baseLiveAgentURL: 'https://d.la2-c1cs-ia4.salesforceliveagent.com/chat',
+                        eswLiveAgentDevName: 'EmbeddedServiceLiveAgent_Parent04I03000000GmaJEAS_1742f3b36e6',
+                        isOfflineSupportEnabled: false
+                    }
+                );
+            }; 
+            
+            if (!window.embedded_svc) {
+                var s = document.createElement('script');
+                s.setAttribute('src', 'https://toyrusca--uat.my.salesforce.com/embeddedservice/5.0/esw.min.js');
+                s.onload = function() {
+                    initESW(null);
+                };
+                document.body.appendChild(s);
+            } else {
+                initESW('https://service.force.com');
+            }
+		
+		</script>
+	</body>
+</html>
