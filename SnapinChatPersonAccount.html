@@ -27,12 +27,16 @@
 				// Sets the auto-population of pre-chat form fields
 				embedded_svc.settings.prepopulatedPrechatFields = {Email: email, Chat_Language__c: language}; 
                 
-                embedded_svc.settings.extraPrechatFormDetails = [{
-                                                                    "label":"Record Type ID",
-                                                                    "value":"0121U000000G9pFQAS"﻿
-                                                                }];
-                
-                embedded_svc.settings.extraPrechatInfo = [{
+				embedded_svc.settings.extraPrechatFormDetails = [{
+										    "label":"Record Type ID",
+										    "value":"0121U000000G9pFQAS"﻿
+										},
+										 {
+											 "label": "Email",
+										  "value": email
+										}];
+
+				embedded_svc.settings.extraPrechatInfo = [{
                                                                 'entityName':'Account',
                                                                 'showOnCreate':true,
                                                                 'saveToTranscript':'AccountId',
@@ -41,7 +45,7 @@
                                                                   "doCreate": false,
                                                                   "doFind": true,
                                                                   "fieldName": "RecordTypeId",
-                                                                  "isExactMatch": false, 
+                                                                  "isExactMatch": true, 
                                                                   "label": "Record Type ID"
                                                                 },
                                                                 {
@@ -52,6 +56,7 @@
                                                                     "label":"Email"
                                                                 }]
                                                             }];
+				
 				embedded_svc.settings.directToButtonRouting = function(prechatFormData) {
 					console.log('language--',language);
 				        if (language === "EN"){
