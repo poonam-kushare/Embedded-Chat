@@ -41,6 +41,14 @@
 																		// This is the Person Account record type to find the existing Person Accounts
 																		"label":"Record Type ID",
 																		"value":"0121U000000G9pFQAS"﻿
+																	},
+					  												{
+																		"label": "Status",
+																		"value": "New"
+																	},
+																	{
+																		"label": "Origin",
+																		"value": "Chat"
 																	}
 																];
 
@@ -49,10 +57,11 @@
 																'entityName':'Account',
 																'showOnCreate':true,
 																'saveToTranscript':'AccountId',
-
+																"linkToEntityName": "Case",
+   																"linkToEntityField": "AccountId",
 																'entityFieldMaps':[{
 																  "doCreate": true,
-																  "doFind": true,
+																  "doFind": false,
 																  "fieldName": "RecordTypeId",
 																  "isExactMatch": true, 
 																  "label": "Record Type ID"
@@ -68,13 +77,6 @@
 															{
 																"entityName": "Case",
 																"entityFieldMaps": [{
-																	"isExactMatch": false,
-																	"fieldName": "Subject",
-																	"doCreate": true,
-																	"doFind": false,
-																	"label": "Subject"
-																}, 
-																{
 																	"isExactMatch": false,
 																	"fieldName": "Status",
 																	"doCreate": true,
