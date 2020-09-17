@@ -23,7 +23,6 @@
 				// Pass the language and email parameters
 				var language = 'EN';
 				var email = '';
-				console.log('email---', email);
 				embedded_svc.settings.displayHelpButton = true; 
 				embedded_svc.settings.defaultMinimizedText = 'LIVE CHAT IS OPEN';
 				embedded_svc.settings.disabledMinimizedText = 'LIVE CHAT IS CLOSED';
@@ -33,10 +32,6 @@
 				embedded_svc.settings.prepopulatedPrechatFields = {Email: email, Chat_Language__c: language}; 
                 
 				embedded_svc.settings.extraPrechatFormDetails = [
-																	{
-																	   "label": "Email",
-																	   "value": email
-																	},
 																	{
 																		// This is the Person Account record type to find the existing Person Accounts
 																		"label":"RecordTypeId",
@@ -105,6 +100,13 @@
 																	"fieldName":"PersonEmail",
 																	"isExactMatch":true,
 																	"label":"Email"
+																},
+																{
+																	"doCreate":true,
+																	"doFind":false,
+																	"fieldName":"Email_Key__c",
+																	"isExactMatch":true,
+																	"label":"Email Key"
 																}]
 															},
 															{
