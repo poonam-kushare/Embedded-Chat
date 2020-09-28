@@ -7,6 +7,15 @@
 			.embeddedServiceHelpButton .helpButton:before { background: url(https://toyrusca--uat--c.documentforce.com/servlet/servlet.ImageServer?id=015030000004pLI&oid=00D030000008acd&lastMod=1600068436000); background-size: 95px; background-position: bottom left; background-repeat: no-repeat; content: ''; position: absolute; width: 100px; height: 69px; z-index: 99; bottom: 0; left: -52px; }
 			.sidebarHeader.minimizedContainer.embeddedServiceSidebarMinimizedDefaultUI:before { background: url(https://toyrusca--uat--c.documentforce.com/servlet/servlet.ImageServer?id=015030000004pLI&oid=00D030000008acd&lastMod=1600068436000); background-size: 95px; background-position: bottom left; background-repeat: no-repeat; content: ''; position: fixed; width: 100px; height: 69px; z-index: 99; bottom: 0; right: 157px; }
 			.embeddedServiceSidebarMinimizedDefaultUI.newMessage, .embeddedServiceSidebarMinimizedDefaultUI.idleTimeout { background: #0f4dbc;}
+			
+			@media (max-width:768px){
+				.embeddedServiceHelpButton .helpButton:before { display:none; }
+				.sidebarHeader.minimizedContainer.embeddedServiceSidebarMinimizedDefaultUI:before {display:none; }
+				.embeddedServiceHelpButton .helpButton .uiButton { width: 50px; height: 50px; border-radius: 100%; min-width: unset; }
+				.embeddedServiceSidebarMinimizedDefaultUI { width: 50px; height: 50px; min-width: unset; min-height: unset; border-radius: 100%; }
+				.embeddedServiceHelpButton .embeddedServiceIcon { margin: 0 4px;}
+				.embeddedServiceSidebarMinimizedDefaultUI .messageContent {margin: 0 1px;}
+			}
 		</style>
 		
 		<!-- Embedded chat deployment code (Auto Generated) -->
