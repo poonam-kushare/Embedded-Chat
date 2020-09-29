@@ -25,9 +25,18 @@
 				var email = 'annemarie_strand@yahoo.com';
 
 				embedded_svc.settings.displayHelpButton = true; 
-				embedded_svc.settings.defaultMinimizedText = 'LIVE CHAT IS OPEN';
-				embedded_svc.settings.disabledMinimizedText = 'LIVE CHAT IS CLOSED';
 				embedded_svc.settings.language = language;
+				
+				if(language === "EN"){
+					embedded_svc.settings.defaultMinimizedText = 'LIVE CHAT IS OPEN';
+					embedded_svc.settings.disabledMinimizedText = 'LIVE CHAT IS CLOSED';
+					embedded_svc.settings.offlineSupportMinimizedText = 'LIVE CHAT IS CLOSED';   
+			    }
+				else if(language === "FR"){
+					embedded_svc.settings.defaultMinimizedText = 'LE CHAT EN DIRECT EST OUVERT';
+					embedded_svc.settings.disabledMinimizedText = 'LE CHAT EN DIRECT EST FERMÉ';
+					embedded_svc.settings.offlineSupportMinimizedText = 'LE CHAT EN DIRECT EST FERMÉ'; 
+				}
 				
 				// Sets the auto-population of pre-chat form fields
 				embedded_svc.settings.prepopulatedPrechatFields = {Chat_Language__c: language}; 
