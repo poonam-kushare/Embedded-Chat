@@ -2,13 +2,113 @@
 	<body> 		
 		<!-- We are hiding the standard chat widget with the css below-->
 		<style type='text/css'>
-			.embeddedServiceHelpButton .helpButton .uiButton.helpButtonDisabled {background: #0f4dbc;}
-			.embeddedServiceHelpButton .helpButton .uiButton.helpButtonEnabled {background: #0f4dbc;}
-			.embeddedServiceLiveAgentStateChatItem .nameAndTimeContent {color:#fff;}
-			.embeddedServiceLiveAgentStateChatItem.agent .nameAndTimeDotDivider {background-color: #fff;}
-			.embeddedServiceHelpButton .helpButton:before { background: url(https://toyrusca--uat--c.documentforce.com/servlet/servlet.ImageServer?id=015030000004pLI&oid=00D030000008acd&lastMod=1600068436000); background-size: 95px; background-position: bottom left; background-repeat: no-repeat; content: ''; position: absolute; width: 100px; height: 69px; z-index: 99; bottom: 0; left: -52px; }
-			.sidebarHeader.minimizedContainer.embeddedServiceSidebarMinimizedDefaultUI:before { background: url(https://toyrusca--uat--c.documentforce.com/servlet/servlet.ImageServer?id=015030000004pLI&oid=00D030000008acd&lastMod=1600068436000); background-size: 95px; background-position: bottom left; background-repeat: no-repeat; content: ''; position: fixed; width: 100px; height: 69px; z-index: 99; bottom: 0; right: 157px; }
-			.embeddedServiceSidebarMinimizedDefaultUI.newMessage, .embeddedServiceSidebarMinimizedDefaultUI.idleTimeout { background: #0f4dbc;}
+			.embeddedServiceHelpButton .helpButton .uiButton.helpButtonDisabled {
+			  background: #0f4dbc;
+			}
+
+			.embeddedServiceHelpButton .helpButton .uiButton.helpButtonEnabled {
+			  background: #0f4dbc;
+			}
+
+			.embeddedServiceLiveAgentStateChatItem .nameAndTimeContent {
+			  color: #fff;
+			}
+
+			.embeddedServiceLiveAgentStateChatItem.agent .nameAndTimeDotDivider {
+			  background-color: #fff;
+			}
+
+			.embeddedServiceHelpButton .helpButton:before {
+			  background: url(https://toyrusca--uat--c.documentforce.com/servlet/servlet.ImageServer?id=015030000004pLI&oid=00D030000008acd&lastMod=1600068436000);
+			  background-size: 95px;
+			  background-position: bottom left;
+			  background-repeat: no-repeat;
+			  content: '';
+			  position: absolute;
+			  width: 100px;
+			  height: 69px;
+			  z-index: 99;
+			  bottom: 0;
+			  left: -52px;
+			}
+
+			.sidebarHeader.minimizedContainer.embeddedServiceSidebarMinimizedDefaultUI:before {
+			  background: url(https://toyrusca--uat--c.documentforce.com/servlet/servlet.ImageServer?id=015030000004pLI&oid=00D030000008acd&lastMod=1600068436000);
+			  background-size: 95px;
+			  background-position: bottom left;
+			  background-repeat: no-repeat;
+			  content: '';
+			  position: fixed;
+			  width: 100px;
+			  height: 69px;
+			  z-index: 99;
+			  bottom: 0;
+			  right: 157px;
+			}
+
+			.embeddedServiceSidebarMinimizedDefaultUI.newMessage, .embeddedServiceSidebarMinimizedDefaultUI.idleTimeout {
+			  background: #0f4dbc;
+			}
+
+			@media (max-width:768px) {
+			  .embeddedServiceHelpButton .helpButton .uiButton {
+				width: 50px;
+				height: 50px;
+				border-radius: 100%;
+				min-width: unset;
+			  }
+
+			  .embeddedServiceSidebarMinimizedDefaultUI {
+				width: 50px;
+				height: 50px;
+				min-width: unset;
+				min-height: unset;
+				border-radius: 100%;
+			  }
+
+			  .embeddedServiceHelpButton .embeddedServiceIcon {
+				margin: 0 4px;
+			  }
+
+			  .embeddedServiceSidebarMinimizedDefaultUI .messageContent {
+				margin: 0 1px;
+			  }
+
+			  .embeddedServiceHelpButton .helpButton:before {
+				background-size: 100%;
+				width: 50px;
+				height: 50px;
+				right: 0;
+				left: unset;
+				bottom: 44px;
+			  }
+
+			  .embeddedServiceSidebarMinimizedDefaultUI.sidebarHeader {
+				bottom: 0 !important;
+			  }
+
+			  .embeddedServiceHelpButton .helpButton {
+				bottom: 55px;
+				right: 30px !important;
+			  }
+
+			  .embeddedServiceSidebarMinimizedDefaultUI.helpButton {
+				bottom: 55px;
+				right: 30px !important;
+			  }
+
+			  .embeddedServiceSidebarMinimizedDefaultUI .minimizedImage, .embeddedServiceSidebarMinimizedDefaultUI .embeddedServiceIcon {
+				margin-right: 0;
+			  }
+
+			  .sidebarHeader.minimizedContainer.embeddedServiceSidebarMinimizedDefaultUI:before {
+				background-size: 100%;
+				width: 50px;
+				height: 50px;
+				right: 29px;
+				bottom: 104px;
+			  }
+			}
 		</style>
 		
 		<!-- Embedded chat deployment code (Auto Generated) -->
