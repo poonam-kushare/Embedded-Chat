@@ -159,11 +159,7 @@
 																	{
 																		"label": "Origin",
 																		"value": "Chat"
-																	},
-																	{
-																		"label": "First Name",
-																		"value": firstName
-																	},
+																	}
 																];
 				
 				if(email){
@@ -176,6 +172,13 @@
 																	   }); 
 					embedded_svc.settings.prepopulatedPrechatFields.Email = email;
 
+				}
+				
+				if(firstName){
+					embedded_svc.settings.extraPrechatFormDetails.push({
+																	   		"label": "First Name",
+																			"value": firstName
+																	   });
 				}
 				
 				embedded_svc.settings.extraPrechatInfo = [
