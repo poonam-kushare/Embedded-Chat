@@ -123,6 +123,7 @@
 				//------- TODO: Pass the language and email parameters
 				var language = 'EN';
 				var email = 'annemarie_strand@yahoo.com';
+				var firstName = 'Annemarie';
 				//--------TODO end
                 
 				embedded_svc.settings.displayHelpButton = true; 
@@ -158,17 +159,21 @@
 																	{
 																		"label": "Origin",
 																		"value": "Chat"
-																	}
+																	},
+																	{
+																		"label": "First Name",
+																		"value": firstName
+																	},
 																];
 				
 				if(email){
 					embedded_svc.settings.extraPrechatFormDetails.push({"label":"Email", "value":email},
-											   {
-												"label": "Visitor Logged In?",
-											        "value": true,
-												"displayToAgent": true,
-												 "transcriptFields": ["Visitor_Logged_In__c"]
-											   }); 
+																	   {
+																			"label": "Visitor Logged In?",
+																			"value": true,
+																			"displayToAgent": true,
+																			 "transcriptFields": ["Visitor_Logged_In__c"]
+																	   }); 
 					embedded_svc.settings.prepopulatedPrechatFields.Email = email;
 
 				}
