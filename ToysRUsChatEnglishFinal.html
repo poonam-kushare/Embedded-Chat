@@ -162,8 +162,15 @@
 																];
 				
 				if(email){
-					embedded_svc.settings.extraPrechatFormDetails.push({"label":"Email", "value":email}); 
+					embedded_svc.settings.extraPrechatFormDetails.push({"label":"Email", "value":email},
+											   {
+												"label": "Visitor Logged In?",
+											        "value": true,
+												"displayToAgent": true,
+												 "transcriptFields": ["Visitor_Logged_In__c"]
+											   }); 
 					embedded_svc.settings.prepopulatedPrechatFields.Email = email;
+
 				}
 				
 				embedded_svc.settings.extraPrechatInfo = [
