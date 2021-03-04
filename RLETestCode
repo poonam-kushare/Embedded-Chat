@@ -153,7 +153,7 @@
 				var language = 'EN';
 				var email = 'annemarie_strand@yahoo.com';
 				var firstName = 'Annemarie';
-				var entrySite = 'TRU';
+				var entrySite = 'RLE';
 				//--------TODO end
                 
 				embedded_svc.settings.displayHelpButton = true; 
