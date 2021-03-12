@@ -24,7 +24,7 @@
 
 			.embeddedServiceHelpButton .helpButton:before {
 			  background: url(https://toyrusca--uat--c.documentforce.com/servlet/servlet.ImageServer?id=015030000004zMf&oid=00D030000008acd&lastMod=1615554015000);
-			  background-size: 95px;
+			  background-size: 100%;
 			  background-position: bottom left;
 			  background-repeat: no-repeat;
 			  content: '';
@@ -38,7 +38,7 @@
 
 			.sidebarHeader.minimizedContainer.embeddedServiceSidebarMinimizedDefaultUI:before {
 			  background: url(https://toyrusca--uat--c.documentforce.com/servlet/servlet.ImageServer?id=015030000004zMf&oid=00D030000008acd&lastMod=1615554015000);
-			  background-size: 95px;
+			  background-size: 100%;
 			  background-position: bottom left;
 			  background-repeat: no-repeat;
 			  content: '';
