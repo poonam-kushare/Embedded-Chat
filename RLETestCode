@@ -23,7 +23,7 @@
 			}
 
 			.embeddedServiceHelpButton .helpButton:before {
-			  background: url(https://toyrusca--uat--c.documentforce.com/servlet/servlet.ImageServer?id=015030000004zMf&oid=00D030000008acd&lastMod=1615554015000);
+			  background: url(https://toyrusca--uat--c.documentforce.com/servlet/servlet.ImageServer?id=015030000004zMf&oid=00D030000008acd&lastMod=1615559191000);
 			  background-size: 100%;
 			  background-position: bottom left;
 			  background-repeat: no-repeat;
@@ -37,7 +37,7 @@
 			}
 
 			.sidebarHeader.minimizedContainer.embeddedServiceSidebarMinimizedDefaultUI:before {
-			  background: url(https://toyrusca--uat--c.documentforce.com/servlet/servlet.ImageServer?id=015030000004zMf&oid=00D030000008acd&lastMod=1615554015000);
+			  background: url(https://toyrusca--uat--c.documentforce.com/servlet/servlet.ImageServer?id=015030000004zMf&oid=00D030000008acd&lastMod=1615559191000);
 			  background-size: 100%;
 			  background-position: bottom left;
 			  background-repeat: no-repeat;
