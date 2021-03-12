@@ -15,7 +15,7 @@
 			}
 
 			.embeddedServiceLiveAgentStateChatItem .nameAndTimeContent {
-			  color: #fff;
+			  color: #828386;
 			}
 
 			.embeddedServiceLiveAgentStateChatItem.agent .nameAndTimeDotDivider {
@@ -23,7 +23,7 @@
 			}
 
 			.embeddedServiceHelpButton .helpButton:before {
-			  background: url(https://toyrusca--uat--c.documentforce.com/servlet/servlet.ImageServer?id=015030000004pLI&oid=00D030000008acd&lastMod=1600068436000);
+			  background: url(https://toyrusca--uat--c.documentforce.com/servlet/servlet.ImageServer?id=015030000004zMf&oid=00D030000008acd&lastMod=1615554015000);
 			  background-size: 95px;
 			  background-position: bottom left;
 			  background-repeat: no-repeat;
@@ -37,7 +37,7 @@
 			}
 
 			.sidebarHeader.minimizedContainer.embeddedServiceSidebarMinimizedDefaultUI:before {
-			  background: url(https://toyrusca--uat--c.documentforce.com/servlet/servlet.ImageServer?id=015030000004pLI&oid=00D030000008acd&lastMod=1600068436000);
+			  background: url(https://toyrusca--uat--c.documentforce.com/servlet/servlet.ImageServer?id=015030000004zMf&oid=00D030000008acd&lastMod=1615554015000);
 			  background-size: 95px;
 			  background-position: bottom left;
 			  background-repeat: no-repeat;
