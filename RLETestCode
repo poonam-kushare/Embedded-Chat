@@ -151,8 +151,8 @@
 				
 				//------- TODO: Pass the language, firstname of the visitor and email parameters
 				var language = 'EN';
-				var email = 'annemarie_strand@yahoo.com';
-				var firstName = 'Annemarie';
+				var email;
+				var firstName = 'Poonam';
 				var entrySite = 'RLE';
 				//--------TODO end
                 
