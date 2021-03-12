@@ -30,9 +30,9 @@
 			  content: '';
 			  position: absolute;
 			  width: 100px;
-			  height: 69px;
+			  height: 85px;
 			  z-index: 99;
-			  bottom: 0;
+			  bottom: -14px;
 			  left: -52px;
 			}
 
@@ -44,9 +44,9 @@
 			  content: '';
 			  position: fixed;
 			  width: 100px;
-			  height: 69px;
+			  height: 85px;
 			  z-index: 99;
-			  bottom: 0;
+			  bottom: -14px;
 			  right: 157px;
 			}
 
