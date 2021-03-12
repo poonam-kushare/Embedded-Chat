@@ -7,11 +7,11 @@
 		    }
 			
 			.embeddedServiceHelpButton .helpButton .uiButton.helpButtonDisabled {
-			  background: #0f4dbc;
+			  background: #EFDF93;
 			}
 
 			.embeddedServiceHelpButton .helpButton .uiButton.helpButtonEnabled {
-			  background: #0f4dbc;
+			  background: #EFDF93;
 			}
 
 			.embeddedServiceLiveAgentStateChatItem .nameAndTimeContent {
@@ -51,7 +51,7 @@
 			}
 
 			.embeddedServiceSidebarMinimizedDefaultUI.newMessage, .embeddedServiceSidebarMinimizedDefaultUI.idleTimeout {
-			  background: #0f4dbc;
+			  background: #EFDF93;
 			}
 
 			@media (max-width:768px) {
