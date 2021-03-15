@@ -10,11 +10,12 @@
 		    }
 			
 			.embeddedServiceHelpButton .helpButton .uiButton.helpButtonDisabled {
-			  background: #EFDF93;
+			  background: #e0d672;    padding-left: 40px;
 			}
+			.embeddedServiceHelpButton .embeddedServiceIcon {display: none !important;}
 
 			.embeddedServiceHelpButton .helpButton .uiButton.helpButtonEnabled {
-			  background: #e0d672;
+			  background: #e0d672;    padding-left: 40px;
 			}
 
 			.embeddedServiceLiveAgentStateChatItem .nameAndTimeContent {
@@ -35,7 +36,7 @@
 			  width: 100px;
 			  height: 85px;
 			  z-index: 99;
-			  left: -53px;
+			  left: -62px;
     			  bottom: -27px;
 			}
 
