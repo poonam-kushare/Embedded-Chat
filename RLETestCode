@@ -11,7 +11,7 @@
 			}
 
 			.embeddedServiceHelpButton .helpButton .uiButton.helpButtonEnabled {
-			  background: #EFDF93;
+			  background: #e0d672;
 			}
 
 			.embeddedServiceLiveAgentStateChatItem .nameAndTimeContent {
