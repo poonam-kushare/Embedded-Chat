@@ -5,7 +5,7 @@
 			.embeddedServiceHelpButton .uiButton .helpButtonLabel .message {
 				font-size: 13px;
 		    }
-		    .embeddedServiceSidebarState.stateBody {padding: 20px;}
+		    .embeddedServiceSidebarState.stateBody {padding: 20px; width: unset;}
 		    .embeddedServiceSidebar .sidebarBody {background: rgb(98 77 137 / 85%);}
 			span.embeddedServiceIcon {display: none !important;}
 			.embeddedServiceHelpButton .helpButton .uiButton.helpButtonDisabled {
