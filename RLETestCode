@@ -16,11 +16,7 @@
 			.embeddedServiceHelpButton .embeddedServiceIcon {
 				display: none !important;
 			}
-			 .embeddedServiceSidebarMinimizedDefaultUI.newMessage,
-			.embeddedServiceSidebarMinimizedDefaultUI.idleTimeout {
-				background: green;
-			}
-
+			
 			.embeddedServiceHelpButton .helpButton .uiButton.helpButtonEnabled {
 				background: #e0d672;
 				padding-left: 40px;
