@@ -71,7 +71,7 @@
 			  }
 
 			  .embeddedServiceHelpButton .embeddedServiceIcon {
-				margin: 0 4px;
+				margin: 0 3px;
 			  }
 
 			  .embeddedServiceSidebarMinimizedDefaultUI .messageContent {
