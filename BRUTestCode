@@ -13,7 +13,7 @@
 			     background: #614c88;    padding-left: 30px;
 			}
 			.embeddedServiceLiveAgentStateChat .messageArea.smoothScroll {
-			    background: none;
+			    background: none;    border: none !important;
 			}
 			.embeddedServiceLiveAgentStateChat .chatSessionStartTime, .waitingGreeting, .embeddedServiceLiveAgentQueuePosition.queuePositionWaiting .queuePositionNumber,
 			.embeddedServiceLiveAgentQueuePosition .queuePositionMessage
@@ -30,7 +30,7 @@
 			    fill: #fff;
 			}
 
-
+			.embeddedServiceLiveAgentStateChat .endChatContainer .endChatButton {    margin-top: 10px;}
 
 			.embeddedServiceHelpButton .helpButton .uiButton.helpButtonEnabled {
 			    background: #614c88;padding-left: 30px;
