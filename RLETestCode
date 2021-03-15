@@ -49,8 +49,8 @@
 			  width: 100px;
 			  height: 85px;
 			  z-index: 99;
-			  bottom: -14px;
-			  right: 157px;
+			  bottom: -31px;
+    			right: 141px;
 			}
 
 			.embeddedServiceSidebarMinimizedDefaultUI.newMessage, .embeddedServiceSidebarMinimizedDefaultUI.idleTimeout {
@@ -74,7 +74,7 @@
 			.messageArea.smoothScroll{background: transparent;border: none !important} 
 			.embeddedServiceLiveAgentStateChat .chasitorInputWrapper {background: transparent;}
          		.embeddedServiceLiveAgentStateChatItem.chatMessage{ background: transparent;padding: 0;}
-	 		.embeddedServiceLiveAgentStateChatMessage .uiOutputRichText {color: #54575a;}
+	 		.embeddedServiceLiveAgentStateChatMessage .uiOutputRichText {color: #54575a;font-size: 13px;}
 			.plaintextContent.agent.embeddedServiceLiveAgentStateChatPlaintextMessageDefaultUI {background: #fff;}
 			.embeddedServiceLiveAgentStateChat .chatSessionStartTime,
 			.embeddedServiceLiveAgentStateChatInputFooter .chasitorControls .uiInput {color: #54575a;}
