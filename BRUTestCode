@@ -16,11 +16,12 @@
 			    background: none;    border: none !important;
 			}
 			.embeddedServiceLiveAgentStateChat .chatSessionStartTime, .waitingGreeting, .embeddedServiceLiveAgentQueuePosition.queuePositionWaiting .queuePositionNumber,
-			.embeddedServiceLiveAgentQueuePosition .queuePositionMessage
+			.embeddedServiceLiveAgentQueuePosition .queuePositionMessage, .embeddedServiceSidebarDialogState #dialogTextTitle, .embeddedServiceSidebarDialogState #dialogTextBody
 			{
 			    color: #fff;
 			}
-			.embeddedServiceLiveAgentStateChatItem.chatMessage, .chasitorInputWrapper.dynamicResizeTextOneRow.text.embeddedServiceLiveAgentStateChatInputFooter {
+			.embeddedServiceLiveAgentStateChatItem.chatMessage, .chasitorInputWrapper.dynamicResizeTextOneRow.text.embeddedServiceLiveAgentStateChatInputFooter,
+			.embeddedServiceSidebarForm.formContent, .embeddedServiceSidebarForm.buttonWrapper{
 			    background: none;
 			}
 			.embeddedServiceLiveAgentStateChatMessage .uiOutputRichText, .embeddedServiceLiveAgentStateChatInputFooter .chasitorControls .uiInput {
@@ -28,6 +29,10 @@
 			}
 			.embeddedServiceLiveAgentStateChatInputFooter .footerMenuWrapper .footer-menu .slds-button__icon {
 			    fill: #fff;
+			}
+			.embeddedServiceSidebarFormField .uiInput .uiLabel-left {
+			    color: #fff;
+			    font-size: 13px;
 			}
 
 			.embeddedServiceLiveAgentStateChat .endChatContainer .endChatButton {    margin-top: 10px;}
