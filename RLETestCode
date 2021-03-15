@@ -78,6 +78,9 @@
 			.plaintextContent.agent.embeddedServiceLiveAgentStateChatPlaintextMessageDefaultUI {background: #fff;}
 			.embeddedServiceLiveAgentStateChat .chatSessionStartTime,
 			.embeddedServiceLiveAgentStateChatInputFooter .chasitorControls .uiInput {color: #54575a;}
+			.embeddedServiceSidebarDialogState #dialogTextTitle, .embeddedServiceSidebarDialogState #dialogTextBody {color: #54575a;}
+.embeddedServiceSidebarDialogState .dialogButton {background: #54575a;}
+.embeddedServiceSidebarDialogState .dialogButton:hover {background: #909090 !important;}
 
 			@media (max-width:768px) {
 			  .embeddedServiceHelpButton .helpButton .uiButton {
