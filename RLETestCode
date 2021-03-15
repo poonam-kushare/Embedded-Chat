@@ -86,7 +86,18 @@
 			    width: 100%;
 			}
 			.embeddedServiceSidebarDialogState .dialogButton:hover, .embeddedServiceLiveAgentStateChat .endChatContainer .endChatButton:hover {background: #909090 !important;}
-   
+   			.formContent.embeddedServiceSidebarForm, .embeddedServiceSidebarForm.buttonWrapper {
+    background: transparent;
+}
+.embeddedServiceSidebarFormField .uiInput .uiLabel-left {
+    color: #54575a;
+    font-size: 12px;
+}
+.formContent.embeddedServiceSidebarForm .uiInput input {
+    border: none;
+    color: #54575a;
+    font-size: 13px;
+}
 
 			@media (max-width:768px) {
 			  .embeddedServiceHelpButton .helpButton .uiButton {
