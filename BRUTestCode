@@ -5,13 +5,15 @@
 			.embeddedServiceHelpButton .uiButton .helpButtonLabel .message {
 				font-size: 13px;
 		    }
-			
+		    .embeddedServiceSidebarState.stateBody {padding: 20px;}
+		    .embeddedServiceSidebar .sidebarBody {background: rgb(98 77 137 / 85%);}
+			span.embeddedServiceIcon {display: none !important;}
 			.embeddedServiceHelpButton .helpButton .uiButton.helpButtonDisabled {
-			  background: #0f4dbc;
+			     background: #614c88;    padding-left: 30px;
 			}
 
 			.embeddedServiceHelpButton .helpButton .uiButton.helpButtonEnabled {
-			  background: #0f4dbc;
+			    background: #614c88;padding-left: 30px;
 			}
 
 			.embeddedServiceLiveAgentStateChatItem .nameAndTimeContent {
@@ -32,8 +34,8 @@
 			  width: 100px;
 			  height: 69px;
 			  z-index: 99;
-			  bottom: 0;
-			  left: -52px;
+			  bottom: -20px;
+    			  left: -46px;
 			}
 
 			.sidebarHeader.minimizedContainer.embeddedServiceSidebarMinimizedDefaultUI:before {
