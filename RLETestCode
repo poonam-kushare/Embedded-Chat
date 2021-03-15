@@ -3,9 +3,8 @@
 		<!-- We are hiding the standard chat widget with the css below-->
 		<style type='text/css'>
 			.embeddedServiceHelpButton .uiButton .helpButtonLabel .message {
-				font-size: 14px;
+				font-size: 13px;
 				color: #000;
-				font-weight: 600;
 				    text-decoration: none !important;
 		    }
 			
