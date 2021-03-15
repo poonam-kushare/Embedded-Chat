@@ -5,12 +5,28 @@
 			.embeddedServiceHelpButton .uiButton .helpButtonLabel .message {
 				font-size: 13px;
 		    }
-		    .embeddedServiceSidebarState.stateBody {padding: 20px; width: unset;}
+		    .embeddedServiceSidebarState.stateBody {padding: 20px;}
 		    .embeddedServiceSidebar .sidebarBody {background: rgb(98 77 137 / 85%);}
 			span.embeddedServiceIcon {display: none !important;}
 			.embeddedServiceHelpButton .helpButton .uiButton.helpButtonDisabled {
 			     background: #614c88;    padding-left: 30px;
 			}
+			.embeddedServiceLiveAgentStateChat .messageArea.smoothScroll {
+			    background: none;
+			}.embeddedServiceLiveAgentStateChat .chatSessionStartTime {
+			    color: #fff;
+			}
+			.embeddedServiceLiveAgentStateChatItem.chatMessage, .chasitorInputWrapper.dynamicResizeTextOneRow.text.embeddedServiceLiveAgentStateChatInputFooter {
+			    background: none;
+			}
+			.embeddedServiceLiveAgentStateChatMessage .uiOutputRichText, .embeddedServiceLiveAgentStateChatInputFooter .chasitorControls .uiInput {
+			    font-size: 13px;
+			}
+			.embeddedServiceLiveAgentStateChatInputFooter .footerMenuWrapper .footer-menu .slds-button__icon {
+			    fill: #fff;
+			}
+
+
 
 			.embeddedServiceHelpButton .helpButton .uiButton.helpButtonEnabled {
 			    background: #614c88;padding-left: 30px;
