@@ -5,183 +5,216 @@
 			.embeddedServiceHelpButton .uiButton .helpButtonLabel .message {
 				font-size: 13px;
 				color: #000;
-				    text-decoration: none !important;
-		    }
-			
-			.embeddedServiceHelpButton .helpButton .uiButton.helpButtonDisabled {
-			  background: #e0d672;    padding-left: 40px;
+				text-decoration: none !important;
 			}
-			.embeddedServiceHelpButton .embeddedServiceIcon {display: none !important;}
+
+			.embeddedServiceHelpButton .helpButton .uiButton.helpButtonDisabled {
+				background: #e0d672;
+				padding-left: 40px;
+			}
+
+			.embeddedServiceHelpButton .embeddedServiceIcon {
+				display: none !important;
+			}
 
 			.embeddedServiceHelpButton .helpButton .uiButton.helpButtonEnabled {
-			  background: #e0d672;    padding-left: 40px;
+				background: #e0d672;
+				padding-left: 40px;
 			}
 
 			.embeddedServiceLiveAgentStateChatItem .nameAndTimeContent {
-			  color: #828386;
+				color: #828386;
 			}
 
 			.embeddedServiceLiveAgentStateChatItem.agent .nameAndTimeDotDivider {
-			  background-color: #fff;
+				background-color: #fff;
 			}
 
 			.embeddedServiceHelpButton .helpButton:before {
-			  background: url(https://toyrusca--uat--c.documentforce.com/servlet/servlet.ImageServer?id=015030000004zMf&oid=00D030000008acd&lastMod=1615559191000);
-			  background-size: 100%;
-			  background-position: bottom left;
-			  background-repeat: no-repeat;
-			  content: '';
-			  position: absolute;
-			  width: 100px;
-			  height: 85px;
-			  z-index: 99;
-			  left: -62px;
-    			  bottom: -27px;
+				background: url(https://toyrusca--uat--c.documentforce.com/servlet/servlet.ImageServer?id=015030000004zMf&oid=00D030000008acd&lastMod=1615559191000);
+				background-size: 100%;
+				background-position: bottom left;
+				background-repeat: no-repeat;
+				content: '';
+				position: absolute;
+				width: 100px;
+				height: 85px;
+				z-index: 99;
+				left: -62px;
+				bottom: -27px;
 			}
 
 			.sidebarHeader.minimizedContainer.embeddedServiceSidebarMinimizedDefaultUI:before {
-			  background: url(https://toyrusca--uat--c.documentforce.com/servlet/servlet.ImageServer?id=015030000004zMf&oid=00D030000008acd&lastMod=1615559191000);
-			  background-size: 100%;
-			  background-position: bottom left;
-			  background-repeat: no-repeat;
-			  content: '';
-			  position: fixed;
-			  width: 100px;
-			  height: 85px;
-			  z-index: 99;
-			  bottom: -31px;
-    			right: 141px;
+				background: url(https://toyrusca--uat--c.documentforce.com/servlet/servlet.ImageServer?id=015030000004zMf&oid=00D030000008acd&lastMod=1615559191000);
+				background-size: 100%;
+				background-position: bottom left;
+				background-repeat: no-repeat;
+				content: '';
+				position: fixed;
+				width: 100px;
+				height: 85px;
+				z-index: 99;
+				bottom: -31px;
+				right: 141px;
 			}
 
-			.embeddedServiceSidebarMinimizedDefaultUI.newMessage, .embeddedServiceSidebarMinimizedDefaultUI.idleTimeout {
-			  background: #EFDF93;
+			.embeddedServiceSidebarMinimizedDefaultUI.newMessage,
+			.embeddedServiceSidebarMinimizedDefaultUI.idleTimeout {
+				background: #EFDF93;
 			}
-			 .embeddedServiceSidebar .sidebarBody {
+
+			.embeddedServiceSidebar .sidebarBody {
 				background: #e3d980;
 			}
 
 			.sidebarHeader[embeddedService-chatHeader_chatHeader] {
-				font-size: 14px;    background: #54575a;
+				font-size: 14px;
+				background: #54575a;
 			}
 
 			.embeddedServiceSidebarState.stateBody {
-			    width: 100%;
-			    height: 100%;
-			    padding: 15px;
-			    box-sizing: border-box;
-			        padding: 20px;
+				width: 100%;
+				height: 100%;
+				padding: 15px;
+				box-sizing: border-box;
+				padding: 20px;
 			}
-			.messageArea.smoothScroll{background: transparent;border: none !important} 
-			.embeddedServiceLiveAgentStateChat .chasitorInputWrapper {background: transparent;}
-         		.embeddedServiceLiveAgentStateChatItem.chatMessage{ background: transparent;padding: 0;}
-	 		.embeddedServiceLiveAgentStateChatMessage .uiOutputRichText {color: #54575a;font-size: 13px;}
-			.plaintextContent.agent.embeddedServiceLiveAgentStateChatPlaintextMessageDefaultUI {background: #fff;}
+
+			.messageArea.smoothScroll {
+				background: transparent;
+				border: none !important
+			}
+
+			.embeddedServiceLiveAgentStateChat .chasitorInputWrapper {
+				background: transparent;
+			}
+
+			.embeddedServiceLiveAgentStateChatItem.chatMessage {
+				background: transparent;
+				padding: 0;
+			}
+
+			.embeddedServiceLiveAgentStateChatMessage .uiOutputRichText {
+				color: #54575a;
+				font-size: 13px;
+			}
+
+			.plaintextContent.agent.embeddedServiceLiveAgentStateChatPlaintextMessageDefaultUI {
+				background: #fff;
+			}
+
 			.embeddedServiceLiveAgentStateChat .chatSessionStartTime,
-			.embeddedServiceLiveAgentStateChatInputFooter .chasitorControls .uiInput {color: #54575a;}
-			.embeddedServiceSidebarDialogState #dialogTextTitle, .embeddedServiceSidebarDialogState #dialogTextBody {color: #54575a;}
-			.embeddedServiceSidebarDialogState .dialogButton {background: #54575a;}
-			.embeddedServiceLiveAgentStateChat .endChatContainer .endChatButton {
-			    background: #54575a;
-			    margin: 10px 0 0;
-			    width: 100%;
+			.embeddedServiceLiveAgentStateChatInputFooter .chasitorControls .uiInput {
+				color: #54575a;
 			}
-			.embeddedServiceSidebarDialogState .dialogButton:hover, .embeddedServiceLiveAgentStateChat .endChatContainer .endChatButton:hover {background: #909090 !important;}
-   			.formContent.embeddedServiceSidebarForm, .embeddedServiceSidebarForm.buttonWrapper {
-    background: transparent;
-}
-.embeddedServiceSidebarFormField .uiInput .uiLabel-left {
-    color: #54575a;
-    font-size: 12px;
-}
-.formContent.embeddedServiceSidebarForm .uiInput input {
-    border: none;
-    color: #54575a;
-    font-size: 13px;
-}
+
+			.embeddedServiceSidebarDialogState #dialogTextTitle,
+			.embeddedServiceSidebarDialogState #dialogTextBody {
+				color: #54575a;
+			}
+
+			.embeddedServiceSidebarDialogState .dialogButton {
+				background: #54575a;
+			}
+
+			.embeddedServiceLiveAgentStateChat .endChatContainer .endChatButton {
+				background: #54575a;
+				margin: 10px 0 0;
+				width: 100%;
+			}
+
+			.embeddedServiceSidebarDialogState .dialogButton:hover,
+			.embeddedServiceLiveAgentStateChat .endChatContainer .endChatButton:hover {
+				background: #909090 !important;
+			}
+
+			.formContent.embeddedServiceSidebarForm,
+			.embeddedServiceSidebarForm.buttonWrapper {
+				background: transparent;
+			}
+
+			.embeddedServiceSidebarFormField .uiInput .uiLabel-left {
+				color: #54575a;
+				font-size: 12px;
+			}
+
+			.formContent.embeddedServiceSidebarForm .uiInput input {
+				border: none;
+				color: #54575a;
+				font-size: 13px;
+			}
 
 			@media (max-width:768px) {
-			  .embeddedServiceHelpButton .helpButton .uiButton {
-				width: 50px;
-				height: 50px;
-				border-radius: 100%;
-				min-width: unset;
-			  }
-
-			  .embeddedServiceSidebarMinimizedDefaultUI {
-				width: 50px;
-				height: 50px;
-				min-width: unset;
-				min-height: unset;
-				border-radius: 100%;
-			  }
-
-			  .embeddedServiceHelpButton .embeddedServiceIcon {
-				margin: 0 3px;
-			  }
-
-			  .embeddedServiceSidebarMinimizedDefaultUI .messageContent {
-				margin: 0 1px;
-			  }
-
-			  .embeddedServiceHelpButton .helpButton:before {
-				background-size: 100%;
-				width: 50px;
-				height: 50px;
-				right: 0;
-				left: unset;
-				bottom: 44px;
-			  }
-
-			  .embeddedServiceSidebarMinimizedDefaultUI.sidebarHeader {
-				bottom: 0 !important;
-			  }
-
-			  .embeddedServiceHelpButton .helpButton {
-				bottom: 18px;
-				right: 16px !important;
-			  }
-
-			  .embeddedServiceSidebarMinimizedDefaultUI.helpButton {
-				bottom: 18px;
-				right: 16px !important;
-			  }
-
-			  .embeddedServiceSidebarMinimizedDefaultUI .minimizedImage, .embeddedServiceSidebarMinimizedDefaultUI .embeddedServiceIcon {
-				margin-right: 0;
-			  }
-
-			  .sidebarHeader.minimizedContainer.embeddedServiceSidebarMinimizedDefaultUI:before {
-				background-size: 100%;
-				width: 50px;
-				height: 50px;
-				right: 29px;
-				bottom: 49px;
-			  }
-
-			  .embeddedServiceSidebarMinimizedDefaultUI.helpButton {
-				width: 50px;
-				height: 50px;
-				min-width: unset;
-				min-height: unset;
-				border-radius: 100%;
-			  }
-
-			  .embeddedServiceSidebarMinimizedDefaultUI .minimizedText {
-				font-size: 0;
-			  }
-
-			  .sidebarHeader.minimizedContainer.embeddedServiceSidebarMinimizedDefaultUI:before {
-				background-size: 100%;
-				width: 50px;
-				height: 50px;
-				right: 29px;
-				bottom: 49px;
-			  }
-
-			  .embeddedServiceHelpButton .helpButton {
-				bottom: 18px;
-				right: 16px !important;
-			  }
+				.embeddedServiceHelpButton .helpButton .uiButton {
+					width: 50px;
+					height: 50px;
+					border-radius: 100%;
+					min-width: unset;
+				}
+				.embeddedServiceSidebarMinimizedDefaultUI {
+					width: 50px;
+					height: 50px;
+					min-width: unset;
+					min-height: unset;
+					border-radius: 100%;
+				}
+				.embeddedServiceHelpButton .embeddedServiceIcon {
+					margin: 0 3px;
+				}
+				.embeddedServiceSidebarMinimizedDefaultUI .messageContent {
+					margin: 0 1px;
+				}
+				.embeddedServiceHelpButton .helpButton:before {
+					background-size: 100%;
+					width: 50px;
+					height: 50px;
+					right: 0;
+					left: unset;
+					bottom: 44px;
+				}
+				.embeddedServiceSidebarMinimizedDefaultUI.sidebarHeader {
+					bottom: 0 !important;
+				}
+				.embeddedServiceHelpButton .helpButton {
+					bottom: 18px;
+					right: 16px !important;
+				}
+				.embeddedServiceSidebarMinimizedDefaultUI.helpButton {
+					bottom: 18px;
+					right: 16px !important;
+				}
+				.embeddedServiceSidebarMinimizedDefaultUI .minimizedImage,
+				.embeddedServiceSidebarMinimizedDefaultUI .embeddedServiceIcon {
+					margin-right: 0;
+				}
+				.sidebarHeader.minimizedContainer.embeddedServiceSidebarMinimizedDefaultUI:before {
+					background-size: 100%;
+					width: 50px;
+					height: 50px;
+					right: 29px;
+					bottom: 49px;
+				}
+				.embeddedServiceSidebarMinimizedDefaultUI.helpButton {
+					width: 50px;
+					height: 50px;
+					min-width: unset;
+					min-height: unset;
+					border-radius: 100%;
+				}
+				.embeddedServiceSidebarMinimizedDefaultUI .minimizedText {
+					font-size: 0;
+				}
+				.sidebarHeader.minimizedContainer.embeddedServiceSidebarMinimizedDefaultUI:before {
+					background-size: 100%;
+					width: 50px;
+					height: 50px;
+					right: 29px;
+					bottom: 49px;
+				}
+				.embeddedServiceHelpButton .helpButton {
+					bottom: 18px;
+					right: 16px !important;
+				}
 			}
 		</style>
 		
@@ -209,7 +242,7 @@
 					embedded_svc.settings.disabledMinimizedText = 'LIVE CHAT IS CLOSED';
 					embedded_svc.settings.offlineSupportMinimizedText = 'LIVE CHAT IS CLOSED';   
 					embedded_svc.settings.loadingText = 'Loading'; 
-			    	}
+				}
 				else if(language === "FR"){
 					embedded_svc.settings.defaultMinimizedText = 'CLAVARDAGE OUVERT';
 					embedded_svc.settings.disabledMinimizedText = 'CLAVARDAGE FERMÉ';
