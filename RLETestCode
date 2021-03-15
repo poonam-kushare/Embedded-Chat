@@ -6,6 +6,7 @@
 				font-size: 14px;
 				color: #000;
 				font-weight: 600;
+				    text-decoration: none !important;
 		    }
 			
 			.embeddedServiceHelpButton .helpButton .uiButton.helpButtonDisabled {
@@ -70,7 +71,13 @@
 			    box-sizing: border-box;
 			        padding: 20px;
 			}
-        
+			.messageArea.smoothScroll{background: transparent;border: none !important} 
+			.embeddedServiceLiveAgentStateChat .chasitorInputWrapper {background: transparent;}
+         		.embeddedServiceLiveAgentStateChatItem.chatMessage{ background: transparent;padding: 0;}
+	 		.embeddedServiceLiveAgentStateChatMessage .uiOutputRichText {color: #54575a;}
+			.plaintextContent.agent.embeddedServiceLiveAgentStateChatPlaintextMessageDefaultUI {background: #fff;}
+			.embeddedServiceLiveAgentStateChat .chatSessionStartTime,
+			.embeddedServiceLiveAgentStateChatInputFooter .chasitorControls .uiInput {color: #54575a;}
 
 			@media (max-width:768px) {
 			  .embeddedServiceHelpButton .helpButton .uiButton {
