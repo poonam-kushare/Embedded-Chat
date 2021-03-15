@@ -3,7 +3,9 @@
 		<!-- We are hiding the standard chat widget with the css below-->
 		<style type='text/css'>
 			.embeddedServiceHelpButton .uiButton .helpButtonLabel .message {
-				font-size: 13px;
+				font-size: 14px;
+				color: #000;
+				font-weight: 600;
 		    }
 			
 			.embeddedServiceHelpButton .helpButton .uiButton.helpButtonDisabled {
@@ -32,8 +34,8 @@
 			  width: 100px;
 			  height: 85px;
 			  z-index: 99;
-			  bottom: -14px;
-			  left: -52px;
+			  left: -53px;
+    			  bottom: -27px;
 			}
 
 			.sidebarHeader.minimizedContainer.embeddedServiceSidebarMinimizedDefaultUI:before {
@@ -53,6 +55,21 @@
 			.embeddedServiceSidebarMinimizedDefaultUI.newMessage, .embeddedServiceSidebarMinimizedDefaultUI.idleTimeout {
 			  background: #EFDF93;
 			}
+			 .embeddedServiceSidebar .sidebarBody {
+				background: #e3d980;
+			}
+
+			.sidebarHeader[embeddedService-chatHeader_chatHeader] {
+				font-size: 14px;    background: #54575a;
+			}
+
+			.embeddedServiceSidebarState.stateBody {
+			    width: 100%;
+			    height: 100%;
+			    padding: 15px;
+			    box-sizing: border-box;
+			}
+        
 
 			@media (max-width:768px) {
 			  .embeddedServiceHelpButton .helpButton .uiButton {
