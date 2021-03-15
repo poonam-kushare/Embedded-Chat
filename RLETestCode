@@ -79,8 +79,14 @@
 			.embeddedServiceLiveAgentStateChat .chatSessionStartTime,
 			.embeddedServiceLiveAgentStateChatInputFooter .chasitorControls .uiInput {color: #54575a;}
 			.embeddedServiceSidebarDialogState #dialogTextTitle, .embeddedServiceSidebarDialogState #dialogTextBody {color: #54575a;}
-.embeddedServiceSidebarDialogState .dialogButton {background: #54575a;}
-.embeddedServiceSidebarDialogState .dialogButton:hover {background: #909090 !important;}
+			.embeddedServiceSidebarDialogState .dialogButton {background: #54575a;}
+			.embeddedServiceLiveAgentStateChat .endChatContainer .endChatButton {
+			    background: #54575a;
+			    margin: 10px 0 0;
+			    width: 100%;
+			}
+			.embeddedServiceSidebarDialogState .dialogButton:hover, .embeddedServiceLiveAgentStateChat .endChatContainer .endChatButton:hover {background: #909090 !important;}
+   
 
 			@media (max-width:768px) {
 			  .embeddedServiceHelpButton .helpButton .uiButton {
