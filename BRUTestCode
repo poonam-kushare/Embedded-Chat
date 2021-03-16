@@ -3,6 +3,17 @@
 		<!-- We are hiding the standard chat widget with the css below-->
 		<style type='text/css'>
 		*{ box-sizing: border-box;}
+		::-webkit-scrollbar-thumb {
+			    background: #54575a;
+			    border-radius: 10px;
+			}
+			::-webkit-scrollbar-track {
+			    background: #d4d4d4;
+			    border-radius: 10px;
+			}
+			::-webkit-scrollbar {
+			    width: 5px;
+			}
 			.embeddedServiceHelpButton .uiButton .helpButtonLabel .message {
 				font-size: 13px;
 		    }
@@ -48,6 +59,9 @@
 			.embeddedServiceLiveAgentStateChatItem.agent .nameAndTimeDotDivider {
 			  background-color: #fff;
 			}
+			.helpButton button {
+    outline: none !important;
+}
 
 			.embeddedServiceHelpButton .helpButton:before {
 			  background: url(https://toyrusca--uat--c.documentforce.com/servlet/servlet.ImageServer?id=015030000004zPA&oid=00D030000008acd&lastMod=1615791060000);
@@ -57,10 +71,10 @@
 			  content: '';
 			  position: absolute;
 			  width: 100px;
-			  height: 69px;
-			  z-index: 99;
-			  bottom: -20px;
-    			  left: -46px;
+			      height: 110px;
+			    z-index: 99;
+			    bottom: -27px;
+			    left: -48px;
 			}
 
 			.sidebarHeader.minimizedContainer.embeddedServiceSidebarMinimizedDefaultUI:before {
@@ -71,15 +85,32 @@
 			  content: '';
 			  position: fixed;
 			  width: 100px;
-			  height: 69px;
-			  z-index: 99;
-			  bottom: 0;
-			  right: 157px;
+			  hheight: 110px;
+    z-index: 99;
+    bottom: -24px;
+    right: 154px;
 			}
 
 			.embeddedServiceSidebarMinimizedDefaultUI.newMessage, .embeddedServiceSidebarMinimizedDefaultUI.idleTimeout {
 			  background: #0f4dbc;
 			}
+			button[embeddedService-chatHeader_chatHeader] {
+    border: 1px solid #fff;
+    border-radius: 3px;
+    margin: 0 3px;
+    cursor: pointer;
+        outline: none !important;
+}
+button[embeddedService-chatHeader_chatHeader]:before {
+    display: none;
+}
+.embeddedServiceSidebarMinimizedDefaultUI .minimizedText>.message {
+    font-size: 13px;
+}
+.embeddedServiceSidebarMinimizedDefaultUI.helpButton {
+    border: none;
+}
+
 
 			@media (max-width:768px) {
 			  .embeddedServiceHelpButton .helpButton .uiButton {
