@@ -195,6 +195,12 @@
 			    color: #000000;
 			    font-size: 13px;
 			}
+			.embeddedServiceSidebarMinimizedDefaultUI {
+			    background: #e3d980 !important;
+			    border: none;}
+			    .embeddedServiceSidebarDialogState .dialogButton span.label, .embeddedServiceLiveAgentStateChat .endChatContainer .endChatButton span {
+			    color: #fff;
+			}
 
 
 			@media (max-width:768px) {
