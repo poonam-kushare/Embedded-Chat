@@ -24,6 +24,9 @@
     margin: 0;
      padding: 0 10px 0 0;
 }
+.embeddedServiceLiveAgentStateChatPlaintextMessageDefaultUI.chasitor.plaintextContent {
+    background: #fff;
+}
 			.embeddedServiceHelpButton .uiButton .helpButtonLabel .message {
 				font-size: 13px;
 				color: #000;
@@ -104,7 +107,8 @@
 
 			.messageArea.smoothScroll {
 				background: transparent;
-				border: none !important
+				border: none !important;
+				padding-right: 10px;
 			}
 
 			.embeddedServiceLiveAgentStateChat .chasitorInputWrapper {
