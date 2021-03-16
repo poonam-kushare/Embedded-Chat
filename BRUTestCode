@@ -17,6 +17,12 @@
 			.embeddedServiceHelpButton .uiButton .helpButtonLabel .message {
 				font-size: 13px;
 		    }
+.embeddedServiceLiveAgentStateChat .chasitorInputWrapper {
+    background: none;
+}
+.embeddedServiceLiveAgentStateChatPlaintextMessageDefaultUI.agent.plaintextContent {
+    background: #fff;
+}
 		    .embeddedServiceSidebarState.stateBody {padding: 20px; width: unset;}
 		    .embeddedServiceSidebar .sidebarBody {background: rgb(98 77 137 / 85%);}
 			span.embeddedServiceIcon {display: none !important;}
