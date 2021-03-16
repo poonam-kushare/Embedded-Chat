@@ -126,6 +126,13 @@ button[embeddedService-chatHeader_chatHeader]:before {
 .embeddedServiceSidebarMinimizedDefaultUI.helpButton {
     border: none;
 }
+.embeddedServiceSidebarForm .fieldList {
+    margin: 0;
+    padding: 0 10 0 0;
+}
+.embeddedServiceSidebarForm .embeddedServiceSidebarFormField {
+    margin-left: 0;
+}
 
 
 			@media (max-width:768px) {
