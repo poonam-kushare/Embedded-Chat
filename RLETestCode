@@ -2,6 +2,21 @@
 	<body> 		
 		<!-- We are hiding the standard chat widget with the css below-->
 		<style type='text/css'>
+			::-webkit-scrollbar-thumb {
+			    background: #54575a;
+			    border-radius: 10px;
+			}
+			::-webkit-scrollbar-track {
+			    background: #d4d4d4;
+			    border-radius: 10px;
+			}
+			::-webkit-scrollbar {
+			    width: 5px;
+			}
+			*{box-sizing: border-box;}
+			.activeFeature.hideWhileLoading {
+			padding: 20px;			
+			}
 			.embeddedServiceHelpButton .uiButton .helpButtonLabel .message {
 				font-size: 13px;
 				color: #000;
@@ -55,8 +70,9 @@
 				height: 85px;
 				z-index: 99;
 				bottom: -31px;
-				right: 141px;
+				right: 156px;
 			}
+			.embeddedServiceSidebarMinimizedDefaultUI .minimizedImage, .embeddedServiceSidebarMinimizedDefaultUI .embeddedServiceIcon{    display: none;}
 
 			.embeddedServiceSidebarMinimizedDefaultUI.newMessage,
 			.embeddedServiceSidebarMinimizedDefaultUI.idleTimeout {
@@ -75,9 +91,8 @@
 			.embeddedServiceSidebarState.stateBody {
 				width: 100%;
 				height: 100%;
-				padding: 15px;
 				box-sizing: border-box;
-				padding: 20px;
+				padding: 0px;
 			}
 
 			.messageArea.smoothScroll {
@@ -143,6 +158,32 @@
 				color: #54575a;
 				font-size: 13px;
 			}
+			button[embeddedService-chatHeader_chatHeader] {
+			    border: 1px solid #e3d980;
+			    margin: 0 3px;
+			    border-radius: 3px;
+				cursor: pointer;
+				    outline: none !important;
+			}
+			button[embeddedService-chatHeader_chatHeader] svg {
+			    fill: #e3d980;
+			}
+			button[embeddedService-chatHeader_chatHeader]:before {
+			    display: none;
+			}
+			.embeddedServiceSidebarMinimizedDefaultUI.helpButton {
+			    background: #e3d980 !important;
+			    border: none;
+			    padding-left: 28px;
+			    min-width: unset;
+			    width: unset;
+			    max-width: unset;
+			}
+			.embeddedServiceSidebarMinimizedDefaultUI .minimizedText>.message {
+			    color: #000000;
+			    font-size: 13px;
+			}
+
 
 			@media (max-width:768px) {
 				.embeddedServiceHelpButton .helpButton .uiButton {
@@ -183,6 +224,8 @@
 					bottom: 18px;
 					right: 16px !important;
 				}
+				
+				
 				.embeddedServiceSidebarMinimizedDefaultUI .minimizedImage,
 				.embeddedServiceSidebarMinimizedDefaultUI .embeddedServiceIcon {
 					margin-right: 0;
