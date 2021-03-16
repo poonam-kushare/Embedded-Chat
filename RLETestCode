@@ -24,9 +24,7 @@
     margin: 0;
      padding: 0 10px 0 0;
 }
-.embeddedServiceLiveAgentStateChatPlaintextMessageDefaultUI.chasitor.plaintextContent {
-    background: #fff;
-}
+
 			.embeddedServiceHelpButton .uiButton .helpButtonLabel .message {
 				font-size: 13px;
 				color: #000;
@@ -201,6 +199,9 @@
 			    .embeddedServiceSidebarDialogState .dialogButton span.label, .embeddedServiceLiveAgentStateChat .endChatContainer .endChatButton span {
 			    color: #fff;
 			}
+			.embeddedServiceLiveAgentStateChatPlaintextMessageDefaultUI.chasitor.plaintextContent .uiOutputRichText {
+    color: #fff;
+}
 
 
 			@media (max-width:768px) {
