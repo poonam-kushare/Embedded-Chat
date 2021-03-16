@@ -17,7 +17,7 @@
 			.embeddedServiceHelpButton .uiButton .helpButtonLabel .message {
 				font-size: 13px;
 		    }
-		    .helpButtonEnabled:focus .helpButtonLabel {
+		    .helpButtonEnabled:focus .helpButtonLabel, .embeddedServiceSidebarMinimizedDefaultUI.minimizedContainer:focus {
     text-decoration: none !important;
 }
 .embeddedServiceLiveAgentStateChat .chasitorInputWrapper {
