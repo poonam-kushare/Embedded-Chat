@@ -17,6 +17,13 @@
 			.activeFeature.hideWhileLoading {
 			padding: 20px;			
 			}
+			.embeddedServiceSidebarForm .embeddedServiceSidebarFormField {
+    margin-left: 0;
+}
+.embeddedServiceSidebarForm .fieldList {
+    margin: 0;
+     padding: 0 10px 0 0;
+}
 			.embeddedServiceHelpButton .uiButton .helpButtonLabel .message {
 				font-size: 13px;
 				color: #000;
