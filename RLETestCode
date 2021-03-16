@@ -166,11 +166,12 @@
 				    outline: none !important;
 			}
 			button[embeddedService-chatHeader_chatHeader] svg {
-			    fill: #e3d980;
+			    fill: #e3d980 !important;
 			}
 			button[embeddedService-chatHeader_chatHeader]:before {
 			    display: none;
 			}
+			.helpButton {outline: none !important;}
 			.embeddedServiceSidebarMinimizedDefaultUI.helpButton {
 			    background: #e3d980 !important;
 			    border: none;
