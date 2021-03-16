@@ -17,6 +17,9 @@
 			.activeFeature.hideWhileLoading {
 			padding: 20px;			
 			}
+			.helpButtonEnabled:focus .helpButtonLabel {
+    text-decoration: none !important;
+}
 			.embeddedServiceSidebarForm .embeddedServiceSidebarFormField {
     margin-left: 0;
 }
