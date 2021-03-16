@@ -17,7 +17,7 @@
 			.activeFeature.hideWhileLoading {
 			padding: 20px;			
 			}
-			.helpButtonEnabled:focus .helpButtonLabel {
+			.helpButtonEnabled:focus .helpButtonLabel, .embeddedServiceSidebarMinimizedDefaultUI.minimizedContainer:focus {
     text-decoration: none !important;
 }
 			.embeddedServiceSidebarForm .embeddedServiceSidebarFormField {
