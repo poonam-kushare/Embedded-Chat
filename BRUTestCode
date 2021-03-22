@@ -27,6 +27,9 @@
 .embeddedServiceLiveAgentStateChatPlaintextMessageDefaultUI.agent.plaintextContent {
     background: #fff;
 }
+.embeddedServiceLiveAgentStateChatPlaintextMessageDefaultUI.chasitor.plaintextContent {
+    background: #fff;
+}
 		    .embeddedServiceSidebarState.stateBody {padding: 20px; width: unset;}
 		    .embeddedServiceSidebar .sidebarBody {background: rgb(98 77 137 / 85%);}
 			span.embeddedServiceIcon {display: none !important;}
@@ -46,11 +49,18 @@
 			    background: none;
 			}
 			.embeddedServiceLiveAgentStateChatMessage .uiOutputRichText, .embeddedServiceLiveAgentStateChatInputFooter .chasitorControls .uiInput {
-			    font-size: 13px;
+			    font-size: 13px;    color: #614c88;
 			}
 			.embeddedServiceLiveAgentStateChatInputFooter .footerMenuWrapper .footer-menu .slds-button__icon {
 			    fill: #fff;
 			}
+			.embeddedServiceSidebarDialogState .embeddedServiceSidebarButton, .embeddedServiceLiveAgentStateChat .endChatContainer .endChatButton {
+    background: #614c88;
+}
+.embeddedServiceSidebarDialogState .embeddedServiceSidebarButton:hover, .embeddedServiceLiveAgentStateChat .endChatContainer .endChatButton:hover {
+    background: #3a2e52 !important;
+}
+.embeddedServiceSidebarDialogState .embeddedServiceSidebarButton span, .embeddedServiceLiveAgentStateChat .endChatContainer .endChatButton span{color: #fff !important;}
 			.embeddedServiceSidebarFormField .uiInput .uiLabel-left {
 			    color: #fff;
 			    font-size: 13px;
