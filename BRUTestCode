@@ -57,7 +57,7 @@
 			.embeddedServiceSidebarDialogState .embeddedServiceSidebarButton, .embeddedServiceLiveAgentStateChat .endChatContainer .endChatButton,
 			.waitingStateButtonContainer button.waitingCancelChat
 			{
-			    background: #614c88; 
+			    background: #614c88 !important; 
 			}
 			.embeddedServiceSidebarDialogState .embeddedServiceSidebarButton:hover, .embeddedServiceLiveAgentStateChat .endChatContainer .endChatButton:hover,
 			.waitingStateButtonContainer button.waitingCancelChat:hover{
