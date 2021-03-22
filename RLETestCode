@@ -211,10 +211,9 @@
 			    .embeddedServiceSidebarDialogState .dialogButton span.label, .embeddedServiceLiveAgentStateChat .endChatContainer .endChatButton span {
 			    color: #fff;
 			}
-			.embeddedServiceLiveAgentStateChatPlaintextMessageDefaultUI.chasitor.plaintextContent .uiOutputRichText {
-    color: #fff;
+			.embeddedServiceLiveAgentStateChatPlaintextMessageDefaultUI.chasitor.plaintextContent {
+    background: #fff;
 }
-
 
 			@media (max-width:768px) {
 				.embeddedServiceHelpButton .helpButton .uiButton {
