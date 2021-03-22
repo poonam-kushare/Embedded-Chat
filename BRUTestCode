@@ -19,17 +19,17 @@
 				font-size: 13px;
 		    }
 		    .helpButtonEnabled:focus .helpButtonLabel, .embeddedServiceSidebarMinimizedDefaultUI.minimizedContainer:focus {
-    text-decoration: none !important;
-}
-.embeddedServiceLiveAgentStateChat .chasitorInputWrapper {
-    background: none;
-}
-.embeddedServiceLiveAgentStateChatPlaintextMessageDefaultUI.agent.plaintextContent {
-    background: #fff;
-}
-.embeddedServiceLiveAgentStateChatPlaintextMessageDefaultUI.chasitor.plaintextContent {
-    background: #fff;
-}
+			    text-decoration: none !important;
+			}
+			.embeddedServiceLiveAgentStateChat .chasitorInputWrapper {
+			    background: none;
+			}
+			.embeddedServiceLiveAgentStateChatPlaintextMessageDefaultUI.agent.plaintextContent {
+			    background: #fff;
+			}
+			.embeddedServiceLiveAgentStateChatPlaintextMessageDefaultUI.chasitor.plaintextContent {
+			    background: #fff;
+			}
 		    .embeddedServiceSidebarState.stateBody {padding: 20px; width: unset;}
 		    .embeddedServiceSidebar .sidebarBody {background: rgb(98 77 137 / 85%);}
 			span.embeddedServiceIcon {display: none !important;}
@@ -68,6 +68,10 @@
 			.embeddedServiceSidebarFormField .uiInput .uiLabel-left {
 			    color: #fff;
 			    font-size: 13px;
+			}
+			.embeddedServiceSidebarButton.uiButton--inverse:not(:disabled):focus, .embeddedServiceSidebarButton.uiButton--inverse:not(:disabled):hover {
+			    background-color: #614c88;
+			    text-decoration: none;
 			}
 
 			.embeddedServiceLiveAgentStateChat .endChatContainer .endChatButton {    margin-top: 10px;}
