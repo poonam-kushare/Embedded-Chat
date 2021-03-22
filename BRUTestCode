@@ -25,10 +25,10 @@
 			    background: none;
 			}
 			.embeddedServiceLiveAgentStateChatPlaintextMessageDefaultUI.agent.plaintextContent {
-			    background: #fff;   max-width:100%;
+			    background: #fff;max-width:100%;
 			}
 			.embeddedServiceLiveAgentStateChatPlaintextMessageDefaultUI.chasitor.plaintextContent {
-			    background: #fff;    max-width: 86%; }
+			    background: #fff;max-width: 86%;}
 			}
 			.plaintextContent.agent.embeddedServiceLiveAgentStateChatPlaintextMessageDefaultUI{ max-width: 100%;}
 		    .embeddedServiceSidebarState.stateBody {padding: 20px; width: unset;}
