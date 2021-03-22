@@ -27,6 +27,14 @@
     margin: 0;
      padding: 0 10px 0 0;
 }
+.embeddedServiceSidebarButton.uiButton--inverse:not(:disabled):focus, .embeddedServiceSidebarButton.uiButton--inverse:not(:disabled):hover {
+    background-color: #54575a;
+    text-decoration: none;
+}
+.embeddedServiceSidebarButton.uiButton--inverse .label {
+    color: #fff;
+}
+
 
 			.embeddedServiceHelpButton .uiButton .helpButtonLabel .message {
 				font-size: 13px;
