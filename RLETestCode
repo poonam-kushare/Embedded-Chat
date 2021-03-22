@@ -34,7 +34,7 @@
 .embeddedServiceSidebarButton.uiButton--inverse .label {
     color: #fff;
 }
-
+.embeddedServiceSidebarButton:focus {text-decoration: none;}
 
 			.embeddedServiceHelpButton .uiButton .helpButtonLabel .message {
 				font-size: 13px;
