@@ -57,14 +57,14 @@
 			.embeddedServiceSidebarDialogState .embeddedServiceSidebarButton, .embeddedServiceLiveAgentStateChat .endChatContainer .endChatButton,
 			.waitingStateButtonContainer button.waitingCancelChat
 			{
-    background: #614c88;
-}
-.embeddedServiceSidebarDialogState .embeddedServiceSidebarButton:hover, .embeddedServiceLiveAgentStateChat .endChatContainer .endChatButton:hover,
-.waitingStateButtonContainer button.waitingCancelChat:hover{
-    background: #3a2e52 !important;
-}
-.embeddedServiceSidebarDialogState .embeddedServiceSidebarButton span, .embeddedServiceLiveAgentStateChat .endChatContainer .endChatButton span,
-.waitingStateButtonContainer button.waitingCancelChat span {color: #fff !important;}
+			    background: #614c88; 
+			}
+			.embeddedServiceSidebarDialogState .embeddedServiceSidebarButton:hover, .embeddedServiceLiveAgentStateChat .endChatContainer .endChatButton:hover,
+			.waitingStateButtonContainer button.waitingCancelChat:hover{
+			    background: #3a2e52 !important;
+			}
+			.embeddedServiceSidebarDialogState .embeddedServiceSidebarButton span, .embeddedServiceLiveAgentStateChat .endChatContainer .endChatButton span,
+			.waitingStateButtonContainer button.waitingCancelChat span {color: #fff !important;}
 			.embeddedServiceSidebarFormField .uiInput .uiLabel-left {
 			    color: #fff;
 			    font-size: 13px;
