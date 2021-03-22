@@ -34,6 +34,10 @@
 .embeddedServiceSidebarButton.uiButton--inverse .label {
     color: #fff;
 }
+.embeddedServiceLiveAgentStateChatPlaintextMessageDefaultUI.chasitor.plaintextContent {
+    background: #fff;
+}
+
 .embeddedServiceSidebarButton:focus {text-decoration: none;} 
 
 			.embeddedServiceHelpButton .uiButton .helpButtonLabel .message {
@@ -211,11 +215,7 @@
 			    .embeddedServiceSidebarDialogState .dialogButton span.label, .embeddedServiceLiveAgentStateChat .endChatContainer .endChatButton span {
 			    color: #fff;
 			}
-			.embeddedServiceLiveAgentStateChatPlaintextMessageDefaultUI.chasitor.plaintextContent .uiOutputRichText {
-    color: #fff;
-}
-
-
+			
 			@media (max-width:768px) {
 				.embeddedServiceHelpButton .helpButton .uiButton {
 					width: 50px;
