@@ -44,6 +44,7 @@
 			{
 			    color: #fff;
 			}
+			.embeddedServiceSidebarButton:focus {text-decoration: none;}
 			.embeddedServiceLiveAgentStateChatItem.chatMessage, .chasitorInputWrapper.dynamicResizeTextOneRow.text.embeddedServiceLiveAgentStateChatInputFooter,
 			.embeddedServiceSidebarForm.formContent, .embeddedServiceSidebarForm.buttonWrapper{
 			    background: none;
@@ -87,9 +88,7 @@
 			.embeddedServiceLiveAgentStateChatItem.agent .nameAndTimeDotDivider {
 			  background-color: #fff;
 			}
-			.helpButton button {
-    outline: none !important;
-}
+			.helpButton button {outline: none !important;}
 
 			.embeddedServiceHelpButton .helpButton:before {
 			  background: url(https://toyrusca--uat--c.documentforce.com/servlet/servlet.ImageServer?id=015030000004zPA&oid=00D030000008acd&lastMod=1615791060000);
@@ -114,26 +113,26 @@
 			  position: fixed;
 			  width: 100px;
 			  height: 110px;
-    z-index: 99;
-    bottom: -24px;
-    right: 154px;
+			    z-index: 99;
+			    bottom: -24px;
+			    right: 154px;
 			}
 			.sidebarHeader.minimizedContainer.embeddedServiceSidebarMinimizedDefaultUI:before {
-    background: url(https://toyrusca--uat--c.documentforce.com/servlet/servlet.ImageServer?id=015030000004zPA&oid=00D030000008acd&lastMod=1615791060000);
-    background-size: 95px;
-    background-position: bottom left;
-    background-repeat: no-repeat;
-    content: '';
-    position: fixed;
-    width: 100px;
-    height: 110px;
-    z-index: 99;
-    bottom: -24px;
-    right: 154px;
-}
-.embeddedServiceSidebarMinimizedDefaultUI {
-    border: none;
-}
+			    background: url(https://toyrusca--uat--c.documentforce.com/servlet/servlet.ImageServer?id=015030000004zPA&oid=00D030000008acd&lastMod=1615791060000);
+			    background-size: 95px;
+			    background-position: bottom left;
+			    background-repeat: no-repeat;
+			    content: '';
+			    position: fixed;
+			    width: 100px;
+			    height: 110px;
+			    z-index: 99;
+			    bottom: -24px;
+			    right: 154px;
+			}
+			.embeddedServiceSidebarMinimizedDefaultUI {
+			    border: none;
+			}
 
 			.embeddedServiceSidebarMinimizedDefaultUI.newMessage, .embeddedServiceSidebarMinimizedDefaultUI.idleTimeout {
 			  background: #0f4dbc;
