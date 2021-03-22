@@ -28,8 +28,9 @@
 			    background: #fff;
 			}
 			.embeddedServiceLiveAgentStateChatPlaintextMessageDefaultUI.chasitor.plaintextContent {
-			    background: #fff;
+			    background: #fff;    max-width: 86%;}
 			}
+			.plaintextContent.agent.embeddedServiceLiveAgentStateChatPlaintextMessageDefaultUI{ max-width: 100%;}
 		    .embeddedServiceSidebarState.stateBody {padding: 20px; width: unset;}
 		    .embeddedServiceSidebar .sidebarBody {background: rgb(98 77 137 / 85%);}
 			span.embeddedServiceIcon {display: none !important;}
