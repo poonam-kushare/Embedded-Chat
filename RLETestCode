@@ -79,6 +79,7 @@
             }
 
             .embeddedServiceHelpButton .helpButton:before {
+				// TODO: Update the url below with production url of RLE Monstor Image document
                 background: url(https://toyrusca--uat--c.documentforce.com/servlet/servlet.ImageServer?id=015030000004zMf&oid=00D030000008acd&lastMod=1615559191000);
                 background-size: 100%;
                 background-position: bottom left;
@@ -93,6 +94,7 @@
             }
 
             .sidebarHeader.minimizedContainer.embeddedServiceSidebarMinimizedDefaultUI:before {
+				// TODO: Update the url below with production url of RLE Monstor Image document
                 background: url(https://toyrusca--uat--c.documentforce.com/servlet/servlet.ImageServer?id=015030000004zMf&oid=00D030000008acd&lastMod=1615559191000);
                 background-size: 100%;
                 background-position: bottom left;
@@ -342,7 +344,7 @@
 			// Auto generated code for chat settings 
 			var initESW = function(gslbBaseURL) {
 				
-				//------- TODO: Pass the language, firstname of the visitor and email parameters
+				//------- TODO: Pass the language, firstname of the visitor, Entry site and email parameters
 				var language = 'EN';
 				var email;
 				var firstName = 'Poonam';
@@ -487,16 +489,19 @@
 				
 				embedded_svc.settings.directToButtonRouting = function(prechatFormData) { 
 					if (language === "EN"){
-						return "57303000000001X";
+						return "57303000000001X"; // TODO: Replace with production version of the "English" Chat button ID
 					}
 					else if(language === "FR"){
-						return "57303000000001c"; 
+						return "57303000000001c"; // TODO: Replace with production version of the "French" Chat button ID
 					}
 				}
 
 				embedded_svc.settings.enabledFeatures = ['LiveAgent'];
 				embedded_svc.settings.entryFeature = 'LiveAgent';
                 
+				// TODO: Replace the below code block with production code for RLE Embedded Service Deployment. 
+				// This is to update the Ids and URLs below to production version 
+				/*------------ Code block start---------*/
                 embedded_svc.init(
                     'https://toyrusca--uat.my.salesforce.com',
                     'https://uat-truca.cs196.force.com',
@@ -525,7 +530,7 @@
 			else {
 				initESW('https://service.force.com');
 		    }
-		
+			/*------------ Code block end---------*/
 		</script>
 	</body>
 </html>
