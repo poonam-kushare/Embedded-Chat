@@ -92,6 +92,7 @@
 			.helpButton button {outline: none !important;}
 
 			.embeddedServiceHelpButton .helpButton:before {
+			  // TODO: Update the url below with production url of BRU Geoffrey Image document
 			  background: url(https://toyrusca--uat--c.documentforce.com/servlet/servlet.ImageServer?id=015030000004zPA&oid=00D030000008acd&lastMod=1615791060000);
 			  background-size: 95px;
 			  background-position: bottom left;
@@ -104,8 +105,9 @@
 			    bottom: -27px;
 			    left: -48px;
 			}
-
+			
 			.sidebarHeader.minimizedContainer.embeddedServiceSidebarMinimizedDefaultUI:before {
+			  // TODO: Update the url below with production url of BRU Geoffrey Image document
 			  background: url(https://toyrusca--uat--c.documentforce.com/servlet/servlet.ImageServer?id=015030000004zPA&oid=00D030000008acd&lastMod=1615791060000);
 			  background-size: 95px;
 			  background-position: bottom left;
@@ -119,6 +121,7 @@
 			    right: 154px;
 			}
 			.sidebarHeader.minimizedContainer.embeddedServiceSidebarMinimizedDefaultUI:before {
+				// TODO: Update the url below with production url of BRU Geoffrey Image document
 			    background: url(https://toyrusca--uat--c.documentforce.com/servlet/servlet.ImageServer?id=015030000004zPA&oid=00D030000008acd&lastMod=1615791060000);
 			    background-size: 95px;
 			    background-position: bottom left;
@@ -139,28 +142,28 @@
 			  background: #0f4dbc;
 			}
 			button[embeddedService-chatHeader_chatHeader] {
-    border: 1px solid #fff;
-    border-radius: 3px;
-    margin: 0 3px;
-    cursor: pointer;
-        outline: none !important;
-}
-button[embeddedService-chatHeader_chatHeader]:before {
-    display: none;
-}
-.embeddedServiceSidebarMinimizedDefaultUI .minimizedText>.message {
-    font-size: 13px;font-family: arial;
-}
-.embeddedServiceSidebarMinimizedDefaultUI.helpButton {
-    border: none;
-}
-.embeddedServiceSidebarForm .fieldList {
-    margin: 0;
-    padding: 0 10 0 0;
-}
-.embeddedServiceSidebarForm .embeddedServiceSidebarFormField {
-    margin-left: 0;
-}
+				border: 1px solid #fff;
+				border-radius: 3px;
+				margin: 0 3px;
+				cursor: pointer;
+					outline: none !important;
+			}
+			button[embeddedService-chatHeader_chatHeader]:before {
+				display: none;
+			}
+			.embeddedServiceSidebarMinimizedDefaultUI .minimizedText>.message {
+				font-size: 13px;font-family: arial;
+			}
+			.embeddedServiceSidebarMinimizedDefaultUI.helpButton {
+				border: none;
+			}
+			.embeddedServiceSidebarForm .fieldList {
+				margin: 0;
+				padding: 0 10 0 0;
+			}
+			.embeddedServiceSidebarForm .embeddedServiceSidebarFormField {
+				margin-left: 0;
+			}
 
 
 			@media (max-width:768px) {
@@ -258,7 +261,7 @@ button[embeddedService-chatHeader_chatHeader]:before {
 			// Auto generated code for chat settings 
 			var initESW = function(gslbBaseURL) {
 				
-				//------- TODO: Pass the language, firstname of the visitor and email parameters
+				//------- TODO: Pass the language, firstname of the visitor, Entry site and email parameters
 				var language = 'EN';
 				var email;
 				var firstName = 'Poonam';
@@ -403,16 +406,19 @@ button[embeddedService-chatHeader_chatHeader]:before {
 				
 				embedded_svc.settings.directToButtonRouting = function(prechatFormData) { 
 					if (language === "EN"){
-						return "57303000000001X";
+						return "57303000000001X"; // TODO: Replace with production version of the "English" Chat button ID
 					}
 					else if(language === "FR"){
-						return "57303000000001c"; 
+						return "57303000000001c";  // TODO: Replace with production version of the "French" Chat button ID
 					}
 				}
 
 				embedded_svc.settings.enabledFeatures = ['LiveAgent'];
 				embedded_svc.settings.entryFeature = 'LiveAgent';
-                
+            
+			    // TODO: Replace the below code block with production code for BRU Embedded Service Deployment. 
+				// This is to update the Ids and URLs below to production version 
+				/*------------ Code block start---------*/
                 embedded_svc.init(
                     'https://toyrusca--uat.my.salesforce.com',
                     'https://uat-truca.cs196.force.com',
@@ -441,7 +447,7 @@ button[embeddedService-chatHeader_chatHeader]:before {
 			else {
 				initESW('https://service.force.com');
 		    }
-		
+			/*------------ Code block end---------*/
 		</script>
 	</body>
 </html>
